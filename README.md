@@ -9,13 +9,15 @@ goaccess-rpm
 
 1. `git clone https://github.com/clcollins/goaccess-rpm.git`
 2. `yum install rpm-build rpmdevtools automake glib2-devel ncurses-devel geoip-devel tokyocabinet-devel`
-3. `./build.sh ag`
+3. `./build.sh goaccess`
 4. `sudo yum install ~/rpmbuild/RPMS/*/*.rpm`
 5. PROFIT!
 
 ## Acknowledgements
 
 Thanks to:
+
+* Geraldo O. [\(https://github.com/allinurl\)](https://github.com/allinurl) for developing GoAccess.
 
 * Ian Meyer [\(https://github.com/imeyer\)](https://github.com/imeyer) for giving me the idea to do this and the code to base some of this off of (check out his awesome Runit rpm spec file and build script for RHEL-based systems).
 
