@@ -10,7 +10,7 @@ goaccess-rpm
 1. `git clone https://github.com/clcollins/goaccess-rpm.git`
 2. `yum install rpm-build rpmdevtools automake glib2-devel ncurses-devel geoip-devel tokyocabinet-devel`
 3. `./build.sh goaccess`
-4. `sudo yum install ~/rpmbuild/RPMS/*/*.rpm`
+4. `yum install ~/rpmbuild/RPMS/*/*.rpm`
 5. PROFIT!
 
 ## Acknowledgements
