@@ -8,7 +8,7 @@ goaccess-rpm
 *Note: This spec file is complete and works, but the build script and documentation in this repository is still being worked on.*
 
 1. `git clone https://github.com/clcollins/goaccess-rpm.git`
-2. `yum install rpm-build rpmdevtools automake glib2-devel ncurses-devel geoip-devel tokyocabinet-devel`
+2. `yum groupinstall -y "Development Tools" && yum install rpm-build rpmdevtools automake glib2-devel ncurses-devel geoip-devel tokyocabinet-devel`
 3. `./build.sh goaccess`
 4. `yum install ~/rpmbuild/RPMS/*/*.rpm`
 5. PROFIT!
