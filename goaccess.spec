@@ -1,5 +1,5 @@
 Name:		goaccess
-Version:	0.8.5
+Version:	1.2
 Release:	0
 Summary:	Apache Log Analyzer	
 
@@ -34,7 +34,8 @@ make install DESTDIR=%{buildroot}
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
 %{_sysconfdir}/%{name}.conf
+%{_datadir}/doc/%{name}/*
 
 %changelog
-* Wed Sep 25 2014 Chris Collins <collins.christopher@gmail.com> - 0.8.5
+* Mon Apr 24 2017 Chris Collins <collins.christopher@gmail.com> - 1.2
 - Initial packaging
