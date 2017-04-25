@@ -13,6 +13,10 @@ goaccess-rpm
 4. `yum install ~/rpmbuild/RPMS/*/*.rpm`
 5. PROFIT!
 
+## Releases
+
+Release versions will match versions of the upstream GoAccess project, though best effort only for release dates - releases will be created periodically based on whatever current version exists for upstream.  Some versions might be missed.
+
 ## Acknowledgements
 
 Thanks to:
